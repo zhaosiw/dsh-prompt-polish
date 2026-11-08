@@ -1,7 +1,7 @@
 {
   "name": "dsh-prompt-polish",
   "version": "0.1.0",
-  "description": "DSH 输入框文字三档优化：composer 按钮 / 快捷键触发，预览确认后回填，保留用户原意。Three-level prompt polishing for the DeepSeek Harness web composer.",
+  "description": "DSH 输入框文字三档优化：composer 按钮 / 快捷键触发，预览确认后回填，保留用户原意。",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -23,15 +23,6 @@
     "cordis.patch.yml",
     "README.md"
   ],
-  "keywords": [
-    "dsh",
-    "deepseek-harness",
-    "dsh-plugin",
-    "prompt",
-    "composer",
-    "polish",
-    "rewrite"
-  ],
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
@@ -45,31 +36,5 @@
       ]
     }
   },
-  "dshhub": {
-    "schemaVersion": 1,
-    "displayName": "dsh-prompt-polish",
-    "summary": "输入框二次优化：轻/中/重三档改写，先预览后回填，保留 @引用、代码、URL 与原有意图。",
-    "categories": ["Web UI", "提示词", "效率"],
-    "surfaces": ["host", "web"],
-    "capabilities": {
-      "provides": ["service:promptPolish"]
-    },
-    "compatibility": {
-      "dsh": ">=0.2.0-rc.2",
-      "node": ">=20"
-    },
-    "permissions": {
-      "network": []
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zhaosiw/dsh-prompt-polish.git"
-  },
-  "homepage": "https://github.com/zhaosiw/dsh-prompt-polish#readme",
-  "bugs": {
-    "url": "https://github.com/zhaosiw/dsh-prompt-polish/issues"
-  },
-  "author": "zhaosiw",
   "license": "MIT"
 }
