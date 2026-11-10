@@ -1,6 +1,6 @@
-{
+﻿{
   "name": "dsh-prompt-polish",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "DSH 输入框文字三档优化：composer 按钮 / 快捷键触发，预览确认后回填，保留用户原意。Three-level prompt polishing for the DeepSeek Harness web composer.",
   "type": "module",
   "main": "lib/index.js",
