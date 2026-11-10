@@ -1,7 +1,7 @@
-﻿{
+{
   "name": "dsh-prompt-polish",
-  "version": "0.2.0",
-  "description": "DSH 输入框文字三档优化：composer 按钮 / 快捷键触发，预览确认后回填，保留用户原意。Three-level prompt polishing for the DeepSeek Harness web composer.",
+  "version": "0.3.0",
+  "description": "DSH 输入框一键优化：点一颗星就地改写草稿，深度自动判断，随时可撤销。One-tap prompt polishing for the DeepSeek Harness web composer.",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -48,7 +48,7 @@
   "dshhub": {
     "schemaVersion": 1,
     "displayName": "dsh-prompt-polish",
-    "summary": "输入框二次优化：轻/中/重三档改写，先预览后回填，保留 @引用、代码、URL 与原有意图。",
+    "summary": "输入框一键优化：一颗星就地改写草稿，自动判断改多深，留撤销口，保留 @引用/代码/URL 与原意。",
     "categories": ["Web UI", "提示词", "效率"],
     "surfaces": ["host", "web"],
     "capabilities": {
